@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#7B1E3A">
+  <title>Venustiano Carranza | Portal Ciudadano</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
+  <link rel="icon" type="image/png" href="assets/icons/vcnuevo.png">
+</head>
+<body>
+  <div class="demo-ribbon"><span></span> PROPUESTA CONCEPTUAL · CONTENIDO DEMOSTRATIVO</div>
+  <header class="site-header">
+    <div class="container-fluid header-inner">
+      <a class="brand" href="#inicio" aria-label="Alcaldía Venustiano Carranza, inicio">
+        <div class="brand-mark"><img src="assets/icons/vcnuevo.png" alt="Escudo Venustiano Carranza" class="brand-logo"></div>
+        <div class="brand-copy"><strong>VENUSTIANO CARRANZA</strong><small>ALCALDÍA · CIUDAD DE MÉXICO</small></div>
+      </a>
+      <nav class="desktop-nav" aria-label="Navegación principal">
+        <a class="active" href="#inicio">Inicio</a><a href="#tramites">Trámites</a><a href="#convocatorias">Convocatorias</a><a href="#programas">Programas</a><a href="#eventos">Eventos</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-btn search-trigger" aria-label="Buscar"><i class="bi bi-search"></i></button>
+        <a class="header-cta" href="#contacto">Atención ciudadana <i class="bi bi-arrow-up-right"></i></a>
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Abrir menú"><i class="bi bi-list"></i></button>
+      </div>
+    </div>
+    <nav class="mobile-nav" id="mobileNav"><a href="#inicio">Inicio</a><a href="#tramites">Trámites</a><a href="#convocatorias">Convocatorias</a><a href="#programas">Programas</a><a href="#eventos">Eventos</a><a href="#contacto">Contacto</a></nav>
+  </header>
+
+  <main>
+    <!-- ============ CARRUSEL HERO DE EVENTOS (DEMO) ============ -->
+    <section class="hero-carousel" aria-label="Eventos destacados de la Alcaldía">
+      <div id="eventsCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5500">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#eventsCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Evento 1"></button>
+          <button type="button" data-bs-target="#eventsCarousel" data-bs-slide-to="1" aria-label="Evento 2"></button>
+          <button type="button" data-bs-target="#eventsCarousel" data-bs-slide-to="2" aria-label="Evento 3"></button>
+          <button type="button" data-bs-target="#eventsCarousel" data-bs-slide-to="3" aria-label="Evento 4"></button>
+          <button type="button" data-bs-target="#eventsCarousel" data-bs-slide-to="4" aria-label="Evento 5"></button>
+        </div>
+        <div class="carousel-inner">
+
+          <div class="carousel-item active">
+            <div class="slide-bg" style="background-image:url('https://picsum.photos/seed/festival-cultural/1600/900');"></div>
+            <div class="slide-overlay"></div>
+            <div class="carousel-caption slide-caption">
+              <span class="slide-badge cultural">Cultural · DEMO</span>
+              <h2>Festival Cultural<br><em>Venustiano Carranza 2026</em></h2>
+              <p><i class="bi bi-calendar3"></i> 15 de marzo · 10:00 h <i class="bi bi-geo-alt"></i> Explanada Delegacional</p>
+              <div class="slide-actions">
+                <button class="btn-slide-primary register-demo">Registrarme <i class="bi bi-arrow-right"></i></button>
+                <button class="btn-slide-ghost detail-btn" data-title="Festival Cultural Venustiano Carranza 2026" data-description="Evento de demostración. Fecha, sede y programa sujetos a confirmación oficial.">Más información</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="slide-bg" style="background-image:url('https://picsum.photos/seed/carrera-atletica/1600/900');"></div>
+            <div class="slide-overlay"></div>
+            <div class="carousel-caption slide-caption">
+              <span class="slide-badge deportivo">Deportivo · DEMO</span>
+              <h2>Carrera Atlética<br><em>por la Comunidad</em></h2>
+              <p><i class="bi bi-calendar3"></i> 22 de marzo · 07:00 h <i class="bi bi-geo-alt"></i> Deportivo Oceanía</p>
+              <div class="slide-actions">
+                <button class="btn-slide-primary register-demo">Registrarme <i class="bi bi-arrow-right"></i></button>
+                <button class="btn-slide-ghost detail-btn" data-title="Carrera Atlética por la Comunidad" data-description="Evento de demostración. Inscripciones y categorías pendientes de validación oficial.">Más información</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="slide-bg" style="background-image:url('https://picsum.photos/seed/jornada-salud/1600/900');"></div>
+            <div class="slide-overlay"></div>
+            <div class="carousel-caption slide-caption">
+              <span class="slide-badge salud">Salud · DEMO</span>
+              <h2>Jornada de<br><em>Salud y Bienestar</em></h2>
+              <p><i class="bi bi-calendar3"></i> 5 de abril · 09:00 h <i class="bi bi-geo-alt"></i> Centro de Salud Carranza</p>
+              <div class="slide-actions">
+                <button class="btn-slide-primary register-demo">Registrarme <i class="bi bi-arrow-right"></i></button>
+                <button class="btn-slide-ghost detail-btn" data-title="Jornada de Salud y Bienestar" data-description="Evento de demostración. Servicios y horarios sujetos a confirmación oficial.">Más información</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="slide-bg" style="background-image:url('https://picsum.photos/seed/feria-emprendimiento/1600/900');"></div>
+            <div class="slide-overlay"></div>
+            <div class="carousel-caption slide-caption">
+              <span class="slide-badge comunitario">Comunitario · DEMO</span>
+              <h2>Feria de<br><em>Emprendimiento Local</em></h2>
+              <p><i class="bi bi-calendar3"></i> 12 de abril · 11:00 h <i class="bi bi-geo-alt"></i> Plaza Cívica</p>
+              <div class="slide-actions">
+                <button class="btn-slide-primary register-demo">Registrarme <i class="bi bi-arrow-right"></i></button>
+                <button class="btn-slide-ghost detail-btn" data-title="Feria de Emprendimiento Local" data-description="Evento de demostración. Expositores y dinámica pendientes de validación.">Más información</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="slide-bg" style="background-image:url('https://picsum.photos/seed/concierto-primavera/1600/900');"></div>
+            <div class="slide-overlay"></div>
+            <div class="carousel-caption slide-caption">
+              <span class="slide-badge cultural">Cultural · DEMO</span>
+              <h2>Concierto<br><em>de Primavera</em></h2>
+              <p><i class="bi bi-calendar3"></i> 19 de abril · 18:00 h <i class="bi bi-geo-alt"></i> Foro al Aire Libre</p>
+              <div class="slide-actions">
+                <button class="btn-slide-primary register-demo">Registrarme <i class="bi bi-arrow-right"></i></button>
+                <button class="btn-slide-ghost detail-btn" data-title="Concierto de Primavera" data-description="Evento de demostración. Programa artístico y accesos pendientes de confirmación.">Más información</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#eventsCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#eventsCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+    <!-- ============ FIN CARRUSEL HERO ============ -->
+
+    <section class="hero" id="inicio">
+      <div class="hero-image"></div><div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <div class="eyebrow light"><span class="eyebrow-line"></span> GOBIERNO CERCANO · SERVICIOS PARA TODAS Y TODOS</div>
+        <h1>Una alcaldía que<br><em>avanza contigo.</em></h1>
+        <p>Conoce los servicios, programas y actividades que construyen una mejor comunidad en Venustiano Carranza.</p>
+        <div class="hero-buttons"><a class="btn-primary-light" href="#tramites">Explorar servicios <i class="bi bi-arrow-right"></i></a><a class="btn-ghost-light" href="#convocatorias">Ver convocatorias</a></div>
+        <div class="hero-footnote"><i class="bi bi-geo-alt"></i> Venustiano Carranza · Ciudad de México</div>
+      </div>
+      <div class="hero-side-note">INFORMACIÓN · PARTICIPACIÓN · COMUNIDAD</div>
+    </section>
+
+    <section class="quick-strip">
+      <div class="container">
+        <div class="quick-grid">
+          <a href="#tramites" class="quick-item"><span class="quick-icon"><i class="bi bi-file-earmark-text"></i></span><span><b>Trámites y servicios</b><small>Consulta requisitos y orientación</small></span><i class="bi bi-arrow-up-right quick-arrow"></i></a>
+          <a href="#convocatorias" class="quick-item"><span class="quick-icon"><i class="bi bi-megaphone"></i></span><span><b>Convocatorias</b><small>Oportunidades y avisos vigentes</small></span><i class="bi bi-arrow-up-right quick-arrow"></i></a>
+          <a href="#programas" class="quick-item"><span class="quick-icon"><i class="bi bi-people"></i></span><span><b>Programas sociales</b><small>Conoce los apoyos disponibles</small></span><i class="bi bi-arrow-up-right quick-arrow"></i></a>
+          <a href="#contacto" class="quick-item"><span class="quick-icon"><i class="bi bi-chat-dots"></i></span><span><b>Atención ciudadana</b><small>Estamos para escucharte</small></span><i class="bi bi-arrow-up-right quick-arrow"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-white" id="tramites">
+      <div class="container">
+        <div class="section-heading">
+          <div><div class="eyebrow"><span class="eyebrow-line"></span> SERVICIOS A TU ALCANCE</div><h2>Lo que necesitas,<br><em>más cerca de ti.</em></h2></div>
+          <p>Encuentra orientación y accesos directos a los principales servicios de la Alcaldía.</p>
+        </div>
+        <div class="service-grid">
+          <a class="service-card" href="#contacto"><span class="service-number">01</span><span class="service-icon"><i class="bi bi-file-check"></i></span><h3>Trámites<br>y servicios</h3><p>Información para realizar tus gestiones.</p><span class="text-link">Conocer más <i class="bi bi-arrow-right"></i></span></a>
+          <a class="service-card" href="#contacto"><span class="service-number">02</span><span class="service-icon"><i class="bi bi-tree"></i></span><h3>Espacios<br>públicos</h3><p>Reportes y cuidado de espacios comunes.</p><span class="text-link">Conocer más <i class="bi bi-arrow-right"></i></span></a>
+          <a class="service-card" href="#contacto"><span class="service-number">03</span><span class="service-icon"><i class="bi bi-shield-check"></i></span><h3>Protección<br>ciudadana</h3><p>Orientación y canales de atención.</p><span class="text-link">Conocer más <i class="bi bi-arrow-right"></i></span></a>
+          <a class="service-card" href="#contacto"><span class="service-number">04</span><span class="service-icon"><i class="bi bi-heart-pulse"></i></span><h3>Salud y<br>bienestar</h3><p>Acciones para una comunidad saludable.</p><span class="text-link">Conocer más <i class="bi bi-arrow-right"></i></span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="convocatorias">
+      <div class="container">
+        <div class="section-heading">
+          <div><div class="eyebrow"><span class="eyebrow-line"></span> PARTICIPACIÓN CIUDADANA</div><h2>Convocatorias<br><em>que abren puertas.</em></h2></div>
+          <p>Consulta oportunidades, avisos y actividades de interés para la comunidad.</p>
+        </div>
+        <div class="filter-row" data-filter-group="calls"><button class="filter-chip active" data-filter="all">Todas</button><button class="filter-chip" data-filter="abierta">Abiertas</button><button class="filter-chip" data-filter="proxima">Próximas</button><button class="filter-chip" data-filter="cerrada">Cerradas</button></div>
+        <div class="content-grid" id="callsGrid">
+          <article class="feature-card content-card" data-category="abierta">
+            <div class="card-photo photo-community"><span class="status-pill open">Abierta</span><span class="photo-label">PARTICIPACIÓN</span></div>
+            <div class="content-card-body"><div class="meta">EJEMPLO DEMOSTRATIVO <span>·</span> 05 NOV 2026</div><h3>Jornadas de participación comunitaria</h3><p>Un espacio para compartir ideas y construir soluciones para nuestras colonias.</p><div class="card-bottom"><span><i class="bi bi-calendar3"></i> Cierre: 30 nov 2026</span><button class="text-link detail-btn" data-title="Jornadas de participación comunitaria" data-description="Ejemplo demostrativo. Consulta las bases, requisitos y mecanismos de participación en los canales oficiales de la Alcaldía.">Ver detalles <i class="bi bi-arrow-right"></i></button></div></div>
+          </article>
+          <article class="content-card" data-category="proxima"><div class="card-photo photo-education"><span class="status-pill soon">Próxima</span><span class="photo-label">EDUCACIÓN</span></div><div class="content-card-body"><div class="meta">EJEMPLO DEMOSTRATIVO <span>·</span> 12 NOV 2026</div><h3>Actividades para el desarrollo juvenil</h3><p>Iniciativas de formación, aprendizaje y participación para jóvenes.</p><div class="card-bottom"><span><i class="bi bi-calendar3"></i> Inicio: 20 nov 2026</span><button class="text-link detail-btn" data-title="Actividades para el desarrollo juvenil" data-description="Ejemplo demostrativo. Las fechas y requisitos deberán validarse con la convocatoria oficial.">Ver detalles <i class="bi bi-arrow-right"></i></button></div></div></article>
+          <article class="content-card" data-category="abierta"><div class="card-photo photo-sports"><span class="status-pill open">Abierta</span><span class="photo-label">DEPORTE</span></div><div class="content-card-body"><div class="meta">EJEMPLO DEMOSTRATIVO <span>·</span> 01 NOV 2026</div><h3>Encuentro deportivo vecinal</h3><p>Participa en actividades que promueven la convivencia y la vida activa.</p><div class="card-bottom"><span><i class="bi bi-calendar3"></i> Cierre: 22 nov 2026</span><button class="text-link detail-btn" data-title="Encuentro deportivo vecinal" data-description="Ejemplo demostrativo. Consulta los canales oficiales para confirmar sedes, horarios e inscripción.">Ver detalles <i class="bi bi-arrow-right"></i></button></div></div></article>
+        </div>
+        <div class="center-action"><a href="#contacto" class="btn-outline-wine">Consultar todas las convocatorias <i class="bi bi-arrow-right"></i></a></div>
+      </div>
+    </section>
+
+    <section class="section section-white" id="programas">
+      <div class="container">
+        <div class="section-heading">
+          <div><div class="eyebrow"><span class="eyebrow-line"></span> BIENESTAR Y COMUNIDAD</div><h2>Programas para<br><em>hacer comunidad.</em></h2></div>
+          <p>Iniciativas demostrativas para acercar información de bienestar y desarrollo a la ciudadanía.</p>
+        </div>
+        <div class="program-grid">
+          <article class="program-card"><div class="program-icon"><i class="bi bi-person-hearts"></i></div><div class="program-tag">BIENESTAR</div><h3>Comunidad que cuida</h3><p>Orientación y actividades para fortalecer redes de apoyo y bienestar comunitario.</p><button class="text-link detail-btn" data-title="Comunidad que cuida" data-description="Ejemplo demostrativo de programa social. Población objetivo, cobertura y reglas de operación pendientes de validación oficial.">Más información <i class="bi bi-arrow-right"></i></button></article>
+          <article class="program-card"><div class="program-icon"><i class="bi bi-book-half"></i></div><div class="program-tag">EDUCACIÓN</div><h3>Aprender y crecer</h3><p>Actividades de aprendizaje, cultura y desarrollo de habilidades para todas las edades.</p><button class="text-link detail-btn" data-title="Aprender y crecer" data-description="Ejemplo demostrativo. La información definitiva deberá publicarse una vez validada por el área responsable.">Más información <i class="bi bi-arrow-right"></i></button></article>
+          <article class="program-card"><div class="program-icon"><i class="bi bi-universal-access"></i></div><div class="program-tag">INCLUSIÓN</div><h3>Espacios para todas y todos</h3><p>Acciones para impulsar una comunidad accesible, incluyente y participativa.</p><button class="text-link detail-btn" data-title="Espacios para todas y todos" data-description="Ejemplo demostrativo. No representa una convocatoria ni un apoyo vigente.">Más información <i class="bi bi-arrow-right"></i></button></article>
+          <article class="program-card"><div class="program-icon"><i class="bi bi-recycle"></i></div><div class="program-tag">SUSTENTABILIDAD</div><h3>Entorno en equilibrio</h3><p>Promoción de hábitos responsables y cuidado del entorno urbano.</p><button class="text-link detail-btn" data-title="Entorno en equilibrio" data-description="Ejemplo demostrativo de iniciativa comunitaria. Requiere validación institucional.">Más información <i class="bi bi-arrow-right"></i></button></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section events-section" id="eventos">
+      <div class="container">
+        <div class="section-heading light-heading">
+          <div><div class="eyebrow light"><span class="eyebrow-line"></span> AGENDA DE LA COMUNIDAD</div><h2>Siempre hay algo<br><em>por vivir.</em></h2></div>
+          <p>Actividades culturales, deportivas y comunitarias para encontrarnos y participar.</p>
+        </div>
+        <div class="event-list">
+          <article class="event-row"><div class="event-date"><b>14</b><span>NOV</span></div><div class="event-info"><span class="event-category">CULTURA · DEMO</span><h3>Encuentro cultural comunitario</h3><p><i class="bi bi-clock"></i> 11:00 h <i class="bi bi-geo-alt"></i> Sede por confirmar</p></div><button class="event-action detail-btn" data-title="Encuentro cultural comunitario" data-description="Evento de demostración. Fecha, sede y registro sujetos a confirmación oficial."><i class="bi bi-arrow-up-right"></i></button></article>
+          <article class="event-row"><div class="event-date"><b>21</b><span>NOV</span></div><div class="event-info"><span class="event-category">DEPORTE · DEMO</span><h3>Activación física para todas las edades</h3><p><i class="bi bi-clock"></i> 09:00 h <i class="bi bi-geo-alt"></i> Sede por confirmar</p></div><button class="event-action detail-btn" data-title="Activación física para todas las edades" data-description="Evento de demostración. Consulta canales oficiales para confirmar ubicación y participación."><i class="bi bi-arrow-up-right"></i></button></article>
+          <article class="event-row"><div class="event-date"><b>28</b><span>NOV</span></div><div class="event-info"><span class="event-category">COMUNIDAD · DEMO</span><h3>Jornada de servicios vecinales</h3><p><i class="bi bi-clock"></i> 10:00 h <i class="bi bi-geo-alt"></i> Sede por confirmar</p></div><button class="event-action detail-btn" data-title="Jornada de servicios vecinales" data-description="Evento de demostración. La programación real deberá integrarse desde fuentes oficiales."><i class="bi bi-arrow-up-right"></i></button></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-white news-section">
+      <div class="container">
+        <div class="section-heading"><div><div class="eyebrow"><span class="eyebrow-line"></span> MANTENTE INFORMADO</div><h2>Lo que sucede<br><em>en nuestra alcaldía.</em></h2></div><p>Un espacio para noticias, comunicados y avisos relevantes para la ciudadanía.</p></div>
+        <div class="news-grid">
+          <article class="news-card"><div class="news-image news-one"></div><div class="news-content"><span class="meta">COMUNICADO · DEMO</span><h3>Información clara y servicios más accesibles</h3><p>Consulta novedades y avisos importantes de interés público.</p><a class="text-link" href="#contacto">Leer comunicado <i class="bi bi-arrow-right"></i></a></div></article>
+          <article class="news-card"><div class="news-image news-two"></div><div class="news-content"><span class="meta">COMUNIDAD · DEMO</span><h3>La participación ciudadana transforma el entorno</h3><p>Conoce espacios y mecanismos para involucrarte en tu comunidad.</p><a class="text-link" href="#contacto">Leer noticia <i class="bi bi-arrow-right"></i></a></div></article>
+          <article class="news-card"><div class="news-image news-three"></div><div class="news-content"><span class="meta">AVISO · DEMO</span><h3>Canales de atención para estar más cerca</h3><p>Encuentra orientación y medios de contacto institucional.</p><a class="text-link" href="#contacto">Conocer más <i class="bi bi-arrow-right"></i></a></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-band" id="contacto"><div class="container contact-inner"><div><div class="eyebrow light"><span class="eyebrow-line"></span> ESTAMOS PARA ESCUCHARTE</div><h2>Tu voz también<br><em>construye alcaldía.</em></h2><p>Encuentra los canales institucionales para solicitar orientación y atención.</p></div><div class="contact-actions"><a href="https://www.vcarranza.cdmx.gob.mx/" target="_blank" rel="noopener" class="btn-primary-light">Visitar portal institucional <i class="bi bi-arrow-up-right"></i></a><span><i class="bi bi-info-circle"></i> Consulta siempre los medios oficiales para información vigente.</span></div></div></section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-main"><a class="brand footer-brand" href="#inicio"><div class="brand-mark"><img src="assets/icons/vcnuevo.png" alt="Escudo Venustiano Carranza" class="brand-logo"></div><div class="brand-copy"><strong>VENUSTIANO CARRANZA</strong><small>ALCALDÍA · CIUDAD DE MÉXICO</small></div></a><div class="footer-links"><a href="#tramites">Trámites</a><a href="#convocatorias">Convocatorias</a><a href="#programas">Programas</a><a href="#eventos">Eventos</a></div><div class="footer-social"><a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a><a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a><a href="#" aria-label="X"><i class="bi bi-twitter-x"></i></a></div></div><div class="container footer-bottom"><span>© 2026 · Propuesta conceptual de experiencia digital</span><span>Contenido demostrativo. Validar información y enlaces antes de publicación.</span></div></footer>
+
+  <button class="chat-launcher" id="chatLauncher" aria-label="Abrir asistente virtual"><i class="bi bi-chat-square-dots"></i><span class="chat-dot"></span></button>
+  <aside class="chat-panel" id="chatPanel" aria-label="Asistente virtual" aria-hidden="true">
+    <div class="chat-head"><div class="chat-avatar"><i class="bi bi-buildings"></i></div><div><b>Asistente Virtual</b><small><span></span> En línea · Demostración</small></div><button id="chatClose" aria-label="Cerrar asistente"><i class="bi bi-x-lg"></i></button></div>
+    <div class="chat-messages" id="chatMessages"><div class="bot-message">¡Hola! Soy el asistente virtual de la Alcaldía Venustiano Carranza. ¿En qué puedo orientarte?<div class="quick-replies"><button data-question="Trámites">Trámites</button><button data-question="Convocatorias">Convocatorias</button><button data-question="Contacto">Contacto</button></div></div></div>
+    <form class="chat-compose" id="chatForm"><input id="chatInput" type="text" placeholder="Escribe tu pregunta…" aria-label="Escribe tu pregunta"><button aria-label="Enviar mensaje"><i class="bi bi-send-fill"></i></button></form>
+    <div class="chat-disclaimer">Asistente de demostración · Respuestas simuladas</div>
+  </aside>
+
+  <div class="modal fade" id="detailModal" tabindex="-1" aria-hidden="true"><div class="modal-dialog modal-dialog-centered"><div class="modal-content detail-modal"><div class="modal-header"><span class="modal-kicker">INFORMACIÓN · DEMOSTRACIÓN</span><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button></div><div class="modal-body"><h3 id="modalTitle"></h3><p id="modalDescription"></p><div class="modal-note"><i class="bi bi-info-circle"></i> El contenido es ilustrativo y debe validarse con el área responsable antes de su publicación.</div></div><div class="modal-footer"><button class="btn-modal" data-bs-dismiss="modal">Entendido</button></div></div></div></div>
+  <div class="toast-container position-fixed bottom-0 start-50 translate-middle-x p-3"><div id="demoToast" class="toast align-items-center border-0" role="alert"><div class="d-flex"><div class="toast-body"><i class="bi bi-check-circle-fill me-2"></i>Esta acción forma parte de la demostración.</div><button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast"></button></div></div></div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
